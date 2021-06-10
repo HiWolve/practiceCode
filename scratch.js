@@ -20,3 +20,4 @@ let concat = function (str1, str2, cb) {
   }
   return cb(together)
 }
+k
