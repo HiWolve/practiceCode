@@ -1,23 +1,7 @@
-console.log('Kreston');
-console.log(9);
-
-let upper = function (string) {
-
-  return string.toUpperCase();
-
-}
-
-let lower = function (string) {
-  return string.toLowerCase();
-
-}
-
-let concat = function (str1, str2, cb) {
-  let together = str1 + str2;
-
-  if (cb === undefined) {
-    return together
+let sentenceMaker = (str1, str2) +> {
+  return (str2) => {return (str1 += str2);
   }
-  return cb(together)
 }
 
+let helloSentence = sentenceMaker("Hello");
+let ggodbyeSenence = 
